@@ -1,0 +1,114 @@
+:root {
+    --gradient: linear-gradient(
+        45deg, #845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871  
+    );
+}
+
+@keyframes animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+
+
+body{
+    font-family: 'Ibarra Real Nova', serif, Verdana;
+    font-family: 'Cormorant SC', serif, Verdana;
+    font-weight: bold;
+    background-image: var(--gradient);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    animation: animation 5s infinite alternate;
+}
+
+
+#panelGroup1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#panelGroup2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#panelGroup3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#panel1{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+#panel2{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+#panel3{
+    border-style: double;
+    width: 100%;
+    text-align: center;    
+    margin: 15px;
+    padding: 15px;
+}
+
+#panel4{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+#panel5{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+#panel6{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+#panel7{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+#panel8{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+#panel9{
+    border-style: double;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
