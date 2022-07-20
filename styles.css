@@ -56,6 +56,8 @@ body{
     text-align: center;
     margin: 15px;
     padding: 15px;
+    background-image: url(img/butterfly.jfif);
+    background-position: center
 }
 
 #panel3{
@@ -79,6 +81,9 @@ body{
     text-align: center;
     margin: 15px;
     padding: 15px;
+    background-image: url(img/neargirl.jfif);
+    background-position: center;
+    background-size: 450px;
 }
 
 #panel6{
@@ -102,6 +107,9 @@ body{
     text-align: center;
     margin: 15px;
     padding: 15px;
+    background-image: url(img/lilgyoza.jfif);
+    background-position: center;
+    background-size: 350px;
 }
 
 #panel9{
